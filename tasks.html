@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи</title>
+</head>
+<body>
+    <header>
+        <a href="Tasks"></a>
+        <button id="themeToggle">😎 Темная тема</button> 
+    </header>
+
+    <main>
+        
+        <!--Форма добавления задач-->
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Введите новую задачу...">
+            <button id="addTaskBtn">Добавить</button>
+        </div>
+        <!--Контейнер для списка задач-->
+        <ul id="tasl:ist"></ul>
+        <!--Счетчик задач-->
+        <div class="task-counter">
+            Всего задач:<span id="totalTasks">0</span>
+            Выполнено:<span id="complitedTasks">0</span>
+        </div>
+    </main>
+    <script src="js/tasks.js"></script>
+
+</body>
+</html>

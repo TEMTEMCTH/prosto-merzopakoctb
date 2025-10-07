@@ -1,0 +1,30 @@
+.card{
+    width: 20%;
+    text-align: center;
+}
+.card > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.name{
+    font-size: 22px;
+    color: antiquewhite;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.desc{
+    font-size: 16px;
+    color: black (191, 199, 189);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: aquamarine;
+    letter-spacing: 4px;
+    margin-bottom: 120px;
+    margin-top: 0;
+    text-align: center;
+}

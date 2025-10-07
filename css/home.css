@@ -1,0 +1,70 @@
+body{
+    width: 100%;/* Ширина */
+    margin: 0;/* Убираем отступ по умолчанию */
+}
+header{
+    background-color:cadetblue ;
+    width:100% ;
+    height: 80px; /* Высота элемента */
+    align-content:center;
+    margin-left: 30px ;
+    
+}
+a,p, h1, h2, h3, button {
+    font-family: "Rubik Mono One", monospace;
+    text-decoration: none;
+
+}
+.logo{
+  color: aliceblue;
+  
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration:underline ;
+}
+header > nav .a{
+    color: chartreuse;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+}
+header > nav {
+    float: right ;
+    margin-right: 50px ;
+}
+.sec1{
+    background-image:url("./mopsik.jpg") ;
+    width: 100% ;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right-cont > a > button{
+    background-color: black;
+    border: 2px solid red  ;
+    padding:  15px 40px ;
+    border-radius: 50px;
+    color:white ;
+    font-weight: 300;
+    font-size: 16px ;
+
+}
+    .right-cont > a > button:hover{
+background-color: blueviolet;
+border: 2px solid;
+}
+.sec3{
+    background-color: black;
+    display: flex;}
+ .div1{
+    margin: 0 auto;  
+}
+.sec3 > div >h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
